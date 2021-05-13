@@ -16,11 +16,9 @@ public class Main {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		PlayerManager playerManager = new PlayerManager(new MernisServiceAdapter());
-		playerManager.add(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206758"));
-		playerManager.add(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206750"));
-		playerManager.update(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206758"));
-		playerManager.update(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206750"));
-		playerManager.delete(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206758"));
+		playerManager.add(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "12345678900"));
+		playerManager.update(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "12345678900"));
+		playerManager.delete(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "12345678900"));
 
 		GameManager gameManager = new GameManager();
 		gameManager.add(new Game(1,"PUBG",1000));
@@ -33,7 +31,7 @@ public class Main {
 		campaingManager.delete(new Campaign(1,"Spring",200));
 		
 		SaleService saleService = new SaleManager();
-		saleService.sale(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206758"),new Game(1,"PUBG",1000));
-		saleService.saleCampaign(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "63919206758"), new Game(1,"PUBG",1000), new Campaign(1,"Spring",100));
+		saleService.sale(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "12345678900"),new Game(1,"PUBG",1000));
+		saleService.saleCampaign(new Player(1, "FATİH", "GÜREL", new Date(1999, 1, 7), "12345678900"), new Game(1,"PUBG",1000), new Campaign(1,"Spring",100));
 	}
 }
