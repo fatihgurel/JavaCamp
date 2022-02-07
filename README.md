@@ -1,6 +1,6 @@
 # JavaCamp
 
-###### Software Developer Training Camp (JAVA + REACT) with Engin DEMİROĞ
+###### Software Developer Training Camp with Engin DEMİROĞ
 
 Exercise Package:
 > https://www.youtube.com/playlist?list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8
