@@ -1,4 +1,4 @@
-# JavaReactCamp
+# JavaCamp
 
 ###### Software Developer Training Camp (JAVA + REACT) with Engin DEMİROĞ
 
